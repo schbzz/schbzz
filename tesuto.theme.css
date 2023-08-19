@@ -1,66 +1,48 @@
 /**
- * @name tesuto
- * @author Disease#5663
- * @version 1.0.11
- * @description macOS with barely any customization.
- * @source https://github.com/maenDisease/Solana
- * @invite BShu37e4jg
- * @website https://maendisease.github.io/
- * @authorId 678469587444170762
- * @BDEditor Solana
+ * @name tesuto2
+ * @author DevilBro
+ * @version 1.0.5
+ * @description Allows you to use a background image without greatly altering the basic look of Discord.
+ * @source https://raw.githubusercontent.com/mwittrien/BetterDiscordAddons/master/Themes/BasicBackground/BasicBackground.theme.css
+ * @invite Jx3TjNS
+ * @donate https://www.paypal.me/MircoWittrien
+ * @patreon https://www.patreon.com/MircoWittrien
+ * @website https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/BasicBackground
+ * @authorId 278543574059057154
+ * @BDEditor BasicBackground
 */
 
-@import url('https://fonts.googleapis.com/css2?family=sans:wght@100;300;400;500;700&display=swap');
-@import url('https://maendisease.github.io/Solana/Solana.css');
-@import url('https://maendisease.github.io/BetterDiscordStuff/css/bdAddonMini.css');
-@import url('https://maendisease.github.io/BetterDiscordStuff/Themes/Solana/addon/mac-titlebar.css');
-@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Apple.css');
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/BasicBackground/BasicBackground.css');
 
 :root {
-  --accent-hue: 284;
-  --accent-saturation: 30%;
-  --accent-brightness: 47%;
-  --background-accent-hue: 270;
-  --background-accent-saturation: 100%;
-  --background-accent-brightness: 89%;
-  --background-image: url('https://i.imgur.com/7aWc2Jt.gif'); /* url(https://site.com/foobar.png) | URL MUST BE A DIRECT LINK (ending in .jpg, .jpeg, .png, .gif) */
-  --background-image-position: center;
-  --background-image-size: cover;
-  --background-image-blur: 0px;
-  --background-overlay-opacity: 45%;
-  --background-overlay-color-lightness: -0.21;
-  --background-hue-shift-strength: 100%;
-  --window-background-image: transparent;
-  --window-background-image-position: center left;
-  --window-background-image-size: cover;
-  --window-background-image-attachment: fixed;
-  --window-opacity: 15%;
-  --window-blur: 0;
-  --window-friends-blur: 0;
-  --window-margin: 24;
-  --window-margin-left: 0;
-  --window-border-radius: 0px;
-  --window-background-lightness: -0.1;
-  --window-accent-tint-strength: 34%;
-  --chat-bubble: 0;
-  --text-link-hue: 290;
-  --chat-text-brightness: -0.16;
-  --home-icon: initial;
-  --favorites-icon: initial;
-  --dock-blur: 0; /* Blur intensity of the dock. */
-  --dock-border-radius: 1;
-  --sidebar-width: 231px;
-  --members-width: 220px;
-  --sidebar-text-brightness: 0.1;
-  --background-floating-blur: 21px;
-  --floating-background-lightness: 0;
-  --background-floating-opacity: 1;
-  --enable-floating-transparency: 1;
-  --custom-font-display: sans;
-  --custom-font-regular: "";
-  --custom-font-primary: "";
-  --custom-font-code: "";
-  --enable-blur: 1;
+  --background: url('https://media.tenor.com/o2kFPhvprPkAAAAd/chainsaw-man-girl-edit-chainsaw-man.gif');
+  --backgroundsize: cover;
+  --backgroundposition: center;
+  --backgroundblur: 7px;
+  --popout: var(--background);
+  --popoutsize: var(--backgroundsize);
+  --backgroundposition: center;
+  --popoutblur: 0px;
+  --transparencycolor: 0,0,0;
+  --accentcolor: 209,209,209;
+  --backdrop: rgba(0,0,0,0.85);
+  --textshadow: transparent;
+  --transparencyalpha: 0.16;
+  --messagetransparency: 0.28;
+  --guildchanneltransparency: 0.18;
+  --chatinputtransparency: 0;
+  --memberlisttransparency: 0;
+  --font: Whitney;
+  --textbrightest: 97,97,97;
+  --textbrighter: 255,255,255;
+  --textbright: 200,200,200;
+  --textdark: 0,0,0;
+  --textdarker: 125,125,125;
+  --textdarkest: 0,0,0;
+  --settingsicons: 1;
+  --backdropsize: var(--background-size);
+  --backdropblur: 0px;
+  --version1_0_5: none;
 }
 
 /* Any custom CSS below here */
